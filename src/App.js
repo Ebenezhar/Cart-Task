@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 function App() {
-  const [products,setProducts]= useState([
+  const products = [
     {
       id: 1,
       name: 'Etymotic - ER4',
@@ -62,7 +62,7 @@ function App() {
       price: 28999,
       img: 'https://cdn.shopify.com/s/files/1/0153/8863/products/Moondrop-Blessing2-01_500x.jpg?v=1615984844',
     },
-  ])
+  ]
   let [cartItems,setCartItems] = useState([]);
   let [total,setTotal] = useState(0)
   let handleAddToCart = (id) => {
