@@ -88,7 +88,7 @@ function App() {
           <div className='row'>
             {
               products.map((product)=>{
-                return (<ProductCard data = {product} handleAddToCart = {handleAddToCart}/>)
+                return (<ProductCard cartItems = {cartItems} data = {product} handleAddToCart = {handleAddToCart}/>)
               })
             }
           </div>
