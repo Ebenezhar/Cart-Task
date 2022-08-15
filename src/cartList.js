@@ -8,7 +8,7 @@ function CartList(props) {
                 </div>
                 <button onClick={() => props.handleRemoveFromCart(props.data.id)} class="badge bg-primary rounded-pill">X</button>
             </li>
-        </>
+        </> 
 
     )
 }

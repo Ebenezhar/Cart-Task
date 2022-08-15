@@ -73,7 +73,6 @@ function App() {
   }
   
   let handleRemoveFromCart = (id) =>{
-    //alert(id);
     let cartItemIndex = cartItems.findIndex(obj => obj.id === id);
     setTotal(total - cartItems[cartItemIndex].price);
     cartItems.splice(cartItemIndex,1);
